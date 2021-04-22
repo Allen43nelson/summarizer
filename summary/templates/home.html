@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+{% block content %}
+hello {{name}}
+
+<form action = "add" method="POST">
+    {% csrf_token %}
+    Enter Topic : <input type="text" name="topic"><br>
+    <input type="submit">
+</form>
+{% endblock%}

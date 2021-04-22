@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jhanvi</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      .wrapper {
+        min-height: 100%;
+        height: 100%;
+        margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+      }
+      #footer, .push {
+        height: 155px; /* .push must be the same height as .footer */
+    }
+    </style>
+  
+
+  </head>
+  <body>
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+
+		  <form class="form-inline" action="search">
+			<input class="form-control mr-sm-2" type="text" name="Topic" /> 
+			<button class="btn btn-primary my-2 my-sm-0" type="submit">
+				Search
+			</button>
+		</form>
+	  </nav>
+
+  <div class="container-fluid">
+	<div class="row">			
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-9" style="background-color: antiquewhite;">
+        <h3>
+          {{Topic}}
+        </h3>
+        <p>
+          {{Summary}}
+        </p>
+      </div>
+      <div class="col-md-2">
+      </div>	  			 
+		</div>
+</div>
+<footer class="bg-dark text-center text-white" id="footer" style="position: static;bottom: 0;">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="http://127.0.0.1:8000">Jhanvi.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
